@@ -1,0 +1,194 @@
+/*Profile pic styling*/
+.profile-pic {
+    width: 30vw;
+    height: 50vh;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 5px solid #333;
+    transition: transform 0.3s;
+}
+
+.profile-pic:hover {
+    transform: scale(1.05);
+}
+
+.name {
+    font-size: 3.5rem;
+}
+
+.year-btn {
+    width: 250px;
+    height: 250px;
+    background: none;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.year-btn:hover {
+    transform: scale(1.1);
+}
+
+.year-btn img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border: 4px solid #0077cc;
+    border-radius: 15%;
+}
+
+.modal-dialog {
+    max-width: 90vw;
+    max-height: 75vh;
+}
+
+.modal-body {
+    display: flex;
+    max-height: 75vh;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.modal-body img {
+    max-width: 100%;
+    max-height: 75vh;
+    object-fit: contain;
+}
+
+.nav-btn {
+    position: fixed;
+    bottom: 0;
+    height: 5%;
+    width: 100%;
+    background-color: #333;
+    text-align: center;
+    padding: 5px 0;
+    box-shadow: 0-2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.nav-btn button {
+    margin: 0 5px;
+    padding: 5px 5px;
+    font-size: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #555;
+    color: white;
+    transition: 0.3s;
+}
+
+.nav-btn button:hover {
+    background-color: #777;
+    transform: scale(1.1)
+}
+
+.image-btn {
+    position: relative;
+    display: inline-block;
+    width: 250px;
+    height: 150px;
+    margin: 0 15px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.image-btn img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 20px;
+}
+
+.image-btn h4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.3);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.image-btn:hover img {
+    filter: brightness(0.7);
+    transform: scale(1.05);
+    transition: all 0.3s ease
+}
+
+.body-index {
+    background: url("images/index-background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.photos-body {
+    background: url("images/index-background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.more-body {
+    background: url("images/index-background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.education-body {
+    background: url("images/index-background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    height: 95%;
+    background-color: antiquewhite;
+    border: 2px solid rosybrown;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.card img {
+    height: 30vh;
+    width: 25vw;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 30px;
+}
+
+.skills-box {
+    width: 100%;
+    max-height: 45vh;
+    border: 2px solid #0077cc;
+    border-radius: 10%;
+}
+
+.project-box {
+    width: 100%;
+    max-height: 45vh;
+    border: 2px solid #0077cc;
+    border-radius: 10%;
+}
+
+.carousel-cert {
+    max-height: 90vh;
+    border: 2px solid #555;
+    overflow: hidden;
+}
+
+.carousel-cert img {
+    max-height: 90vh;
+    object-fit: contain;
+}

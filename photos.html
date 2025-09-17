@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--Own stylesheet-->
+    <link href="style.css" rel="stylesheet">
+    <!--Animation library-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!--Encoding to support multiple languages-->
+    <meta charset="UTF-8" />
+    <!--Let screen adjust to any device's screen width-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Photos</title>
+</head>
+
+<body class="photos-body">
+    <div class="container-fluid vh-100 d-flex flex-column">
+        <div class="flex-grow-1 d-flex">
+            <div class="col-md-4 d-flex justify-content-center align-items-start">
+                <button class="year-btn" data-bs-toggle="modal" data-bs-target="#2025schoolphotos">
+                    <img src="images/sinmin3.jpg" alt="2025photos" class="img-fluid rounded">
+                    <h4>2025-School</h4>
+                </button>
+            </div>
+            <div class="col-md-4 d-flex justify-content-center align-items-start">
+                <button class="year-btn" data-bs-toggle="modal" data-bs-target="#2025travellingphotos">
+                    <img src="images/2025-travels.JPEG" alt="2025photos" class="img-fluid rounded">
+                    <h4>2025-Travels</h4>
+                </button>
+            </div>
+            <div class="col-md-4 d-flex justify-content-center align-items-start">
+                <button class="year-btn" data-bs-toggle="modal" data-bs-target="#2025otherphotos">
+                    <img src="images/2025-others.jpg" alt="2025photos" class="img-fluid rounded">
+                    <h4>2025-Others</h4>
+                </button>
+            </div>
+        </div>
+        <div class="flex-grow-1 d-flex">
+            <div class="col-md-4 d-flex justify-content-center align-items-start">
+                <button class="year-btn" data-bs-toggle="modal" data-bs-target="#2024schoolphotos">
+                    <img src="images/sinmin5.jpg" alt="2024photos" class="img-fluid rounded">
+                    <h4>2024-School</h4>
+                </button>
+            </div>
+            <div class="col-md-4 d-flex justify-content-center align-items-start">
+                <button class="year-btn" data-bs-toggle="modal" data-bs-target="#2024travellingphotos">
+                    <img src="images/2024-travel.jpg" alt="2024photos" class="img-fluid rounded">
+                    <h4>2024-Travels</h4>
+                </button>
+            </div>
+            <div class="col-md-4 d-flex justify-content-center align-items-start">
+                <button class="year-btn" data-bs-toggle="modal" data-bs-target="#others-photos">
+                    <img src="images/others.jpg" alt="others" class="img-fluid rounded">
+                    <h4>Others</h4>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade justify-content-center align-items-center" id="2025schoolphotos" aria-hidden="true"
+        tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content ">
+                <div class="modal-header">
+                    <h5 class="modal-title">2025 School Photos(SPM)</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="carouselsch2025" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/2025-school/20250205_113027.jpg" class="d-block w-100" alt="photo1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/2025-school/20250205_114936.jpg" class="d-block w-100" alt="photo2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/2025-school/20250210_174430.jpg" class="d-block w-100" alt="photo3">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/2025-school/IMG-20250210-WA0087.jpg" class="d-block w-100"
+                                    alt="photo4">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/2025-school/KEV03507.JPG" class="d-block w-100" alt="photo5">
+                            </div>
+                        </div>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselsch2025"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselsch2025"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="2025travellingphotos" aria-hidden="true" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">2025 Travel Photos</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="carouseltravel2025" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/2025-travel/2025-03-05 22-05-19.jpg" class="d-block w-100"
+                                    alt="photo1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/2025-travel/20250216_122344.jpg" class="d-block w-100" alt="photo2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/2025-travel/20250209_170023.jpg" class="d-block w-100" alt="photo3">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/2025-travel/4b69e435-784d-4963-9bbd-308a1e76f234.jpg"
+                                    class="d-block w-100" alt="photo4">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/2025-travel/IMG_2974.JPEG" class="d-block w-100" alt="photo5">
+                            </div>
+                        </div>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouseltravel2025"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouseltravel2025"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="2025otherphotos" aria-hidden="true" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">2025 Other Photos</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="carouselother2025" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/2025-others/20250127_215326.jpg" class="d-block w-100" alt="photo1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/2025-others/20250204_175056.jpg" class="d-block w-100" alt="photo2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/2025-others/20250424_120053.jpg" class="d-block w-100" alt="photo3">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/2025-others/IMG-20250210-WA0069.jpg" class="d-block w-100"
+                                    alt="photo4">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/2025-others/IMG_20250615_155704_346.jpg" class="d-block w-100"
+                                    alt="photo5">
+                            </div>
+                        </div>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselother2025"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselother2025"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="2024schoolphotos" aria-hidden="true" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">2024 School Photos</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="carouselsch2024" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/2024-school/IMG-20240516-WA0019.jpg" class="d-block w-100"
+                                    alt="photo1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/2024-school/IMG-20240516-WA0022.jpg" class="d-block w-100"
+                                    alt="photo2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/2024-school/IMG-20240516-WA0024.jpg" class="d-block w-100"
+                                    alt="photo3">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/2024-school/IMG-20240521-WA0035.jpg" class="d-block w-100"
+                                    alt="photo4">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/2024-school/IMG-20240521-WA0039.jpg" class="d-block w-100"
+                                    alt="photo5">
+                            </div>
+                        </div>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselsch2024"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselsch2024"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="2024travellingphotos" aria-hidden="true" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">2024 Travel Photos</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="carouseltravel2024" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/2024-travel/20240228_120144.jpg" class="d-block w-100" alt="photo1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/2024-travel/20240228_132957.jpg" class="d-block w-100" alt="photo2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/2024-travel/20240928_084704.jpg" class="d-block w-100" alt="photo3">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/2024-travel/IMG-20240917-WA0035.jpg" class="d-block w-100"
+                                    alt="photo4">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/2024-travel/IMG-20240917-WA0055.jpg" class="d-block w-100"
+                                    alt="photo5">
+                            </div>
+                        </div>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouseltravel2024"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouseltravel2024"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="others-photos" aria-hidden="true" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Others</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="otherphotos" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/others/20240207_222748.jpg" class="d-block w-100" alt="photo1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/others/20240211_150729.jpg" class="d-block w-100" alt="photo2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/others/20240214_101029.jpg" class="d-block w-100" alt="photo3">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/others/FB_IMG_1710163498984.jpg" class="d-block w-100" alt="photo4">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/others/IMG-20240409-WA0008.jpg" class="d-block w-100" alt="photo5">
+                            </div>
+                        </div>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#otherphotos"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#otherphotos"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="nav-btn">
+        <button onclick="location.href='index.html'">Go to mainpage</button>
+        <button onclick="location.href='more.html'">Go to others</button>
+        <button onclick="location.href='education.html'">Go to education</button>
+    </div>
+
+</body>
+<!--Bootstrap JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+</html>
