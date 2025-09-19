@@ -125,28 +125,28 @@
 }
 
 .body-index {
-    background: url("images/index-background.jpg") no-repeat center center fixed;
+    background: url("images/B.jpg") no-repeat center center fixed;
     background-size: cover;
     margin: 0;
     padding: 0;
 }
 
 .photos-body {
-    background: url("images/index-background.jpg") no-repeat center center fixed;
+    background: url("images/B.jpg") no-repeat center center fixed;
     background-size: cover;
     margin: 0;
     padding: 0;
 }
 
 .more-body {
-    background: url("images/index-background.jpg") no-repeat center center fixed;
+    background: url("images/B.jpg") no-repeat center center fixed;
     background-size: cover;
     margin: 0;
     padding: 0;
 }
 
 .education-body {
-    background: url("images/index-background.jpg") no-repeat center center fixed;
+    background: url("images/B.jpg") no-repeat center center fixed;
     background-size: cover;
     margin: 0;
     padding: 0;
@@ -191,4 +191,27 @@
 .carousel-cert img {
     max-height: 90vh;
     object-fit: contain;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(10, 40px);
+    grid-template-rows: repeat(10, 40px);
+    gap: 2px;
+    justify-content: center;
+}
+
+.grid input {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 10px;
+    border: 1px solid #333;
+    text-transform: uppercase;
+}
+
+.modal-crossword {
+    max-width: 60%;
+    max-height: 70%;
+    justify-content: center;
 }
